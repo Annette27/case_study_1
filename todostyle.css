@@ -1,0 +1,93 @@
+#option{
+    padding-right: 50%;
+    display: inline;
+    display: block;
+}
+body{
+  background-image: linear-gradient(to left, rgba(9, 201, 207, 1), rgba(10,100,150,0));
+  
+}
+table tr td{
+    border: 1px solid rgb(9, 5, 66);
+    border-style: collapse;
+    
+}
+th{
+  background-image: linear-gradient(to right, rgba(150,0,100,0.5), rgba(10,100,150,0.5));
+}
+#head{
+  text-align: center;
+  color: white;
+  font-size: large;
+  font-family: cursive;
+}
+tr,td{
+    padding: 5px;
+    background-image: linear-gradient(to right, rgba(150,0,100,0.5), rgba(10,100,150,0.5));
+}
+td{
+  color: white;
+  font-family: cursive;
+}
+table{
+    margin-top: 2vW;
+    border: 1px solid rgb(9, 5, 66);
+    /* margin-left: 24%; */
+}
+/* @media screen and (max-width: 700px) {
+    table{
+      width:58.33%;
+  
+    }
+  } */
+@media screen and (min-width: 601px) {
+    table{
+      width: 58.33vw;
+  
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    table {
+      width: 66.66vw;
+    }
+  }
+
+  nav{
+      height: fit-content; 
+      background-image: linear-gradient(to right, rgba(10,100,150,1), rgba(0,255,255,1));
+      width: 100%;
+       }
+
+#btn1 ,#btn2{
+width: 100px;
+color: black;
+background-color: white;
+border-radius: 4px;
+box-shadow: inset 0 0 0 0 rgb(150, 180, 68);
+transition: ease-out .3s;
+outline: none;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 5px;
+}
+#btn1:hover{
+  box-shadow: inset 100px 0 0 0 rgb(150, 180, 68);;
+  color: black;
+}  
+#btn2:hover{
+  box-shadow: inset 100px 0 0 0 rgb(150, 180, 68);
+}   
+#label{
+  font-size: large;
+  font-weight: 700;
+  font-family: cursive;
+  color: rgb(52, 12, 104);
+}
+#tag{
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
