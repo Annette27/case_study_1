@@ -50,7 +50,7 @@
       /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
       @media screen and (max-width: 600px) {
         .form-label {
-          font-size: 10px;
+          font-size: 15px;
         }
       }
       @media screen and (min-width: 601px) {
@@ -98,14 +98,13 @@
           border: 1px solid #67bf41;
       }
       #showBtn{
-      position: absolute;
-     
+     position: absolute;
      cursor: pointer;
      font-size: 12px;
      color: black;
      z-index: 2;
       }
-      @media screen and (min-width: 601px) {
+      @media screen and (min-width: 432px) {
         #showBtn{
           font-size: 10px;
           padding-top: 3%;
@@ -115,12 +114,12 @@
       }
       
       /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 431px) {
         #showBtn {
-          font-size: 7px;
-          padding-top: 5%;
+          font-size: 5px;
+          padding-top: 6%;
           /* padding-left: 80%; */
-          margin-left: 80%;
+          margin-left: 82%;
         }
       }
 
