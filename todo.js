@@ -6,7 +6,7 @@
           var k = '<table>'
           for(i = 0; i <1 ; i++){
             k+= '<tr>';
-            k+= '<td ><input type="checkbox" onchange="selectAll()" name="chk1"  class="form-check-input" ></td>'
+            k+= '<td ><input type="checkbox" onchange="selectAll()" name="chk1"  class="form-check-input" style="cursor: pointer" ></td>'
             k+= '<th id="head">' + "THINGS TO DO" + '</th>'
             '</tr>'
           }
@@ -115,6 +115,9 @@
          }
         }
       }
-
+    
+      
+     
+   
  
      
