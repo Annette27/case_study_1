@@ -28,6 +28,7 @@ tr,td{
 td{
   color: white;
   font-family: cursive;
+  font-size: larger;
 }
 table{
     margin-top: 2vW;
@@ -94,3 +95,7 @@ margin-top: 7px;
   padding: 5px;
   margin: 6px;
 }
+/* .check {
+cursor: pointer;
+
+} */
