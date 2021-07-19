@@ -54,7 +54,7 @@
         })
         promise
         .then(function(){
-           alert("sucess")  
+           alert("Congrats. 5 Tasks have been Successfully Completed ")  
         })
 
     }
