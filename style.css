@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+    body{
+        background-image: url(bg2.jpg);
+        background-size: cover;
+        height: auto;
+      
+        
+    }
+    background-image{
+        opacity: 20%;
+    }
+    form{
+        width: 30vw;
+        margin-top: 10vw;
+        padding: 2%;
+        text-align: left;
+        border: 1px solid black;
+        border-radius: 7px;
+        background-color: #5c5b58;
+        color: white;
+        opacity: 90%;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    @media screen and (min-width: 701px) {
+      form {
+        /* font-size: 20px; */
+        width: 30vw;
+      }
+    }
+   
+    
+    /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+    @media screen and (max-width: 750px) {
+      form {
+        /* font-size: 10px; */
+        width: 50vw;
+      }
+    }
+ 
+    @media screen and (min-width: 601px) {
+        .form-label {
+          font-size: 20px;
+        }
+      }
+      
+      /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+      @media screen and (max-width: 600px) {
+        .form-label {
+          font-size: 10px;
+        }
+      }
+      @media screen and (min-width: 601px) {
+        #emailHelp,.form-check-label{
+          font-size: 15px;
+        }
+      }
+      
+      /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+      @media screen and (max-width: 600px) {
+        #emailHelp,.form-check-label {
+          font-size: 8px;
+        }
+      }
+      #btn1:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+
+      @media screen and (min-width: 601px) {
+        #exampleCheck1{
+          font-size: 15px;
+        }
+      }
+      
+      /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+      @media screen and (max-width: 600px) {
+        #exampleCheck1 {
+          font-size: 8px;
+        }
+      }
+      @media screen and (min-width: 601px) {
+        #btn1{
+          font-size: 15px;
+        }
+      }
+      
+      /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+      @media screen and (max-width: 600px) {
+        #btn1 {
+          font-size: 8px;
+        }
+      }
+      #btn1{
+          background-color: #67bf41;
+          border: 1px solid #67bf41;
+      }
+      #showBtn{
+      position: absolute;
+     
+     cursor: pointer;
+     font-size: 12px;
+     color: black;
+     z-index: 2;
+      }
+      @media screen and (min-width: 601px) {
+        #showBtn{
+          font-size: 10px;
+          padding-top: 3%;
+          /* padding-left: 80%; */
+          margin-left: 80%;
+        }
+      }
+      
+      /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+      @media screen and (max-width: 600px) {
+        #showBtn {
+          font-size: 7px;
+          padding-top: 5%;
+          /* padding-left: 80%; */
+          margin-left: 80%;
+        }
+      }
+
+      #error2{
+        z-index: 5;
+        position: relative;
+        margin-top: 5px;
+        padding-top: 5%;
+      }
+      nav{
+        height: fit-content; 
+        background-image: linear-gradient(to right, rgba(10,100,150,1), rgba(0,255,255,1));
+         }
+      
