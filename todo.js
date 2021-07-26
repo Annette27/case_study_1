@@ -28,8 +28,8 @@
     function diabling(x ,y){
       for( var i=0 ;i<x.length;){
         if(x[i].completed == true){
-          document.getElementsByClassName("check")[i-1].checked = true;
-          document.getElementsByClassName("check")[i-1].disabled = true;
+          document.getElementsByClassName("check")[i].checked = true;
+          document.getElementsByClassName("check")[i].disabled = true;
           i++;
         }
         else{
